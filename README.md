@@ -11,7 +11,7 @@ cd spotify-project
 
 ```
 
-If you're using cmd, run the following line (if you have visual studio code)
+If you're using cmd, run the following line (if you have visual studio code installed in your computer)
 
 ```bash
 
@@ -21,6 +21,8 @@ code .
 
 
 ## Install the dependencies
+
+Run the following line in your code editor
 
 ```bash
 
