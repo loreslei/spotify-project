@@ -23,14 +23,15 @@ app.get('/api/songs', async(req, res) =>{
 
 app.use(express.static(path.join(__dirname, '../front-end/dist')));
 
-/* app.get('/{*any}', async(req, res) =>{
-    res.sendFile(path.join(__dirname, '../front-end/dist/index.html'));
-}); */
-
-
 app.get('/{*any}', async(req, res) =>{
+    res.sendFile(path.join(__dirname, '../front-end/dist/index.html'));
+}); 
+
+
+/* app.get('/{*any}', async(req, res) =>{
     res.sendFile('../../front-end/dist/index.html');
 });
+ */
 
 app.listen(PORT, () => {
     console.log(`Servidor está escutando na porta ${PORT}`);
